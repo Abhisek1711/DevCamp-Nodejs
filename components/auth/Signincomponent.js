@@ -17,7 +17,6 @@ const SigninComponent = () => {
   useEffect(() => {
     isAuth() && Router.push("/");
   }, []);
-
   const handleSubmit = e => {
     e.preventDefault();
     //console.table({ name, email, password, error, loading, message, showForm });
